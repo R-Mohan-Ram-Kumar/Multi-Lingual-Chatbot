@@ -7,7 +7,7 @@ import streamlit as st
 absl.logging.set_verbosity(-1)
 
 # Replace with your actual Gemini API key
-api_key = "AIzaSyAU9XYaYmaDFGK5G2SjrMtecO-XFw6jGHA"
+api_key = "Enter_YOUR_GEMINI_API_KEY"
 
 # Configure the Gemini API
 genai.configure(api_key=api_key)
