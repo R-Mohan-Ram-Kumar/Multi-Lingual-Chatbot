@@ -62,13 +62,6 @@ Run the Streamlit app
 streamlit run app.py
 
 
-📁 File Structure
-
-multilingual-chatbot/
-├── app.py                # Main application script
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
-
 
 Input	Translated Output
 "What is AI?"	"ఏఐ అంటే ఏమిటి?" (Telugu)
