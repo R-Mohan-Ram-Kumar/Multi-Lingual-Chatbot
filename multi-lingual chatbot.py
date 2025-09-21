@@ -23,7 +23,7 @@ def translate_chatbot_response(prompt, target_language_code):
 absl.logging.set_verbosity(-1)
 
 # Configure Gemini API
-api_key = "ADD_YOUR_API"
+api_key = "AIzaSyCKLGXWbUh-NC5cPFdMhHVnOzWaXwZrPjU"
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
