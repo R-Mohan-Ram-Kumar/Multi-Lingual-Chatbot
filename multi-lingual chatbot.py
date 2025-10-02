@@ -25,7 +25,7 @@ absl.logging.set_verbosity(-1)
 # Configure Gemini API
 api_key = "AIzaSyCouCzpBNhn9DAOnWq4bLjXWlm7eRozsrc"
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Indian languages
 indian_languages = {
